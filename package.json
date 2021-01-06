@@ -1,0 +1,13 @@
+{
+  "name": "tssqlbuilder",
+  "version": "0.0.1",
+  "description": "sql builder in TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "piaoyaocdl",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
