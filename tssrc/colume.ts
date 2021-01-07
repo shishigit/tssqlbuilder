@@ -1,1 +1,9 @@
-export class Colume { }
+export class Colume
+{
+    constructor(
+        readonly name: string
+    )
+    {
+
+    }
+}

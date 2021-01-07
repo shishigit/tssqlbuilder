@@ -1,1 +1,4 @@
-export class Database { }
+export class Database
+{
+    select() { }
+}

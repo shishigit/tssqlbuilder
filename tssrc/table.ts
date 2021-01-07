@@ -1,1 +1,9 @@
-export class Table { }
+export class Table
+{
+    constructor(
+        readonly name: string
+    )
+    {
+
+    }
+}
