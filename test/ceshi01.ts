@@ -1,14 +1,13 @@
 import assert from 'assert'
-import { Sql } from '../tssrc/sql';
-import { Table } from '../tssrc/table';
-describe('Array', function ()
+import { Select } from '../tssrc/select';
+
+describe('Select', function ()
 {
-    describe('#indexOf()', function ()
+    describe('01', function ()
     {
         it('should return -1 when the value is not present', function ()
         {
-            let table = new Table('test')
-            Sql.insert().into(table).toQuery()
+            Select()
             assert.strictEqual([1, 2, 3].indexOf(4), -1);
         });
     });

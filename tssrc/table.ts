@@ -1,9 +1,7 @@
-export class Table<T>
+export class Table
 {
-    constructor(
-        readonly name: string
-    )
+    static define<T>(): { [key: keyof T ]: any }
     {
-
+        return {}
     }
 }

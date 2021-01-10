@@ -4,7 +4,7 @@
   "description": "sql builder in TS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register test/**/*.ts --watch --watch-files tssrc/**/*.ts"
+    "test": "mocha -r ts-node/register test/**/*.ts --watch --watch-files **/*.ts"
   },
   "author": "piaoyaocdl",
   "license": "ISC",
